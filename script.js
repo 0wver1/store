@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Apple Watch Series 10',
             category: 'smartwatch',
             price: 499,
-            image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MY7N3ref_VW_34FR+watch-case-42-aluminum-silver-nc-s10_VW_34FR+watch-face-42-aluminum-silver-s10_VW_34FR?wid=752&hei=720&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=K2t1bnExRnFNdEtwODg0U2VzTVNiWjNqbENGcEFFTlJVaXJwL2VzdGxEMUljRjVjb3RBRUI2RzdxR2VyMW04MktiMHlsanRialdTdDcyc1VBUDljMWJTdjdWZDZNTDA2YVdIMWltQk5rSVFzcXlqRnhOVXRDb09ITlB0dmMxa3IxRWcxcFNUbllKRGY4Szh6MTVJZ1N3RURuRVoxZjBkWlAvNkMrbU5jNUFLT0lodkdNeWd3SHAzZlUzNms5S2kxYTV3aHB6VUg0cXhiSFFkSkkrM2ZpOFE4WFRnaDN2Z0ZCTmd2bjl6SlZhbw',
+            image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MY7N3ref_VW_34FR+watch-case-42-aluminum-silver-nc-s10_VW_34FR+watch-face-42-aluminum-silver-s10_VW_34FR?wid=752&hei=720&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=K2t1bnExRnFNdEtwODg0U2VzTVNiWjNqbENGcEFFTlJVaXJwL2VzdGxEMUljRjVjb3RBRUI2RzdxR2VyMW04MktiMHlsanRialdTdDcyc1VBUDljMWJTdjdWZDZNTDA2YVdIMWltQk5rSVFzcXlqRnhOVXRDb09ITlB0dmMxa3IxRWcxcFNUbllKRGY4Szh6MTVJZ1N3RURuRVoxZjBkWlAvNkMrbU5jNUFLT0lodkdNeWd3SHAzZlUzNms5S2kxYTV3ZHB6VUg0cXhiSFFkSkkrM2ZpOFE4WFRnaDN2Z0ZCTmd2bjl6SlZhbw',
             specs: {
                 display: 'Always-On Retina LTPO display',
                 features: 'Blood Oxygen app, ECG app',
