@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourMarket - Discover Premium Electronics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">YourMarket</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products-section">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search products">
+                <button id="search-button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="header-actions">
+                <button id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                    <div class="cart-items-container">
+                        <h3>Shopping Cart</h3>
+                        <ul class="cart-items-list">
+                            <!-- Cart items will be added here -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>The Future of shopping</h1>
+                <p>Explore our selection of innovative electronics.</p>
+                <a href="#products-section" class="btn">Explore Our Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="products-section" class="featured-products">
+        <div class="container">
+            <h2>Our Innovation. For You.</h2>
+            <div class="filters">
+                <select id="category-filter" class="category-filter-dropdown">
+                    <option value="">All Categories</option>
+                    <option value="smartphone">Smartphones</option>
+                    <option value="headphone">Headphones</option>
+                    <option value="accessory">Accessories</option>
+                    <option value="monitor">Monitors</option>
+                    <option value="laptop">Laptops</option>
+                    <option value="smartwatch">Smartwatches</option>
+                    <option value="tablet">Tablets</option>
+                </select>
+                <select id="price-filter">
+                    <option value="">All Prices</option>
+                    <option value="0-199">Under $200</option>
+                    <option value="200-499">$200 - $499</option>
+                    <option value="500-999">$500 - $999</option>
+                    <option value="1000+">$1000+</option>
+                </select>
+            </div>
+            <div class="products-grid" id="products-container">
+                <!-- Product items will be added here by JavaScript -->
+                <div class="product-card" data-category="smartphone" data-id="1">
+                    <img src="https://placehold.co/200x150" alt="Product Image">
+                    <h3>Awesome Phone</h3>
+                    <span class="category">Smartphone</span>
+                    <span class="price">$999</span>
+                    <div class="actions">
+                        <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                        <button class="more-options" data-product-id="1"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="specs">
+                        <h4>Specifications</h4>
+                        <ul>
+                            <li>Display: 6.7-inch OLED</li>
+                            <li>Processor: Octa-core</li>
+                            <li>RAM: 8GB</li>
+                            <li>Storage: 256GB</li>
+                        </ul>
+                        <button class="close-specs">Close</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="headphone" data-id="2">
+                    <img src="https://placehold.co/200x150" alt="Product Image">
+                    <h3>Amazing Headphones</h3>
+                    <span class="category">Headphones</span>
+                    <span class="price">$249</span>
+                    <div class="actions">
+                        <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+                        <button class="more-options" data-product-id="2"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="specs">
+                        <h4>Specifications</h4>
+                        <ul>
+                            <li>Type: Over-ear</li>
+                            <li>Connectivity: Bluetooth 5.0</li>
+                            <li>Battery Life: 30 hours</li>
+                        </ul>
+                        <button class="close-specs">Close</button>
+                    </div>
+                </div>
+                <!-- More product cards will be added here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-us">
+        <div class="container">
+            <h2>Our Story. Our Vision.</h2>
+            <p>Founded on the principles of innovation and quality, YourMarket strives to bring you the most advanced and user-centric electronic products. We believe in technology that empowers and enriches lives.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© Amer El Sayed </p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
